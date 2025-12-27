@@ -1,59 +1,69 @@
-⚡ Apex Local Messenger
-A multi-modal communication framework for high-speed local networking. Features private whisper channels, contextual thread replies, and a live state-engine for real-time polling. Integrated with a native media suite for voice notes and auto-balanced image scaling. Built with a mobile-first, zero-clipping UI using dynamic viewport units.
+# ******************************************************************************
+# ⚡ ***APEX LOCAL MESSENGER: SUPREME EDITION*** ⚡
+# ******************************************************************************
 
-💻 Required Software
-To run this project, you must have Node.js installed on your system.
+A ***multi-modal communication framework*** engineered for high-speed local networking. 
+This engine features ***private whisper channels***, ***contextual thread replies***, 
+and a ***live state-engine*** for real-time polling. Integrated with a ***native 
+media suite*** for voice notes and ***auto-balanced image scaling***. Built with a 
+***mobile-first, zero-clipping UI*** using dynamic viewport units.
 
-Download Node.js (LTS Version): https://nodejs.org/en/download/
+---
 
-Direct Windows Installer: Click Here
+## 💻 ***1. SYSTEM REQUIREMENTS***
+To run the ***Apex Messenger Engine***, you ***must*** have the following software:
 
-Direct macOS Installer: Click Here
+* ***Node.js (LTS Version):*** The core JavaScript runtime engine.
+* ***NPM (Node Package Manager):*** Used to install the Socket and Express libraries.
+* ***Modern Browser:*** Chrome, Firefox, or Safari (Required for Voice Recording).
 
-Note: Installing Node.js will automatically install NPM, which is required to download the chat libraries.
+***DOWNLOAD LINKS:***
+* ***Node.js Official:*** https://nodejs.org/en/download/
+* ***Windows Installer (64-bit):*** https://nodejs.org/dist/v20.11.0/node-v20.11.0-x64.msi
+* ***macOS Installer (Universal):*** https://nodejs.org/dist/v20.11.0/node-v20.11.0.pkg
 
-🛠️ Step-by-Step Setup
-1. File Preparation
-Ensure the following files are located in a single folder on your computer:
+---
 
-server.js (The backend)
+## 🛠️ ***2. STEP-BY-STEP INSTALLATION***
 
-index.html (The interface)
+1. ***PREPARE PROJECT DIRECTORY:*** Place your 'server.js', 'index.html', and 'package.json' files into ***one single folder***.
 
-package.json (The configuration)
+2. ***OPEN COMMAND INTERFACE:*** Open ***Command Prompt*** (Windows) or ***Terminal*** (Mac/Linux) and navigate to your folder.
 
-README.md (This file)
+3. ***EXECUTE DEPENDENCY INSTALL:*** Copy and run this command to build the 'node_modules' folder:
+   ***npm install***
 
-2. Install Dependencies
-Open your Terminal or Command Prompt in that folder and run:
+4. ***LAUNCH THE SUPREME ENGINE:*** Copy and run this command to start the server:
+   ***node server.js***
+   
+   *Note: If successful, the terminal will display: "***WAYNE CORE SUPREME SERVER ONLINE***".*
 
-Bash
+5. ***ESTABLISH CONNECTION:***
+   * ***On Host PC:*** Open browser to http://localhost:3000
+   * ***On Mobile/External:*** Enter your PC's ***Local IP Address*** (e.g., http://192.168.1.5:3000).
 
-npm install
-3. Launch the Engine
-In the same terminal, type:
+---
 
-Bash
+## ✨ ***3. ADVANCED FEATURE SUITE***
 
-node server.js
-A message will appear confirming the Wayne Core Supreme Server is active.
+* 🔒 ***WHISPER SYSTEM:*** Click or tap any username in the active sidebar to initiate a ***secure private session***.
+  
+* 💬 ***CONTEXTUAL THREADING:*** Tap any ***message bubble*** to automatically quote that message and reply instantly.
 
-4. Connect to Chat
-Desktop: Navigate to http://localhost:3000
+* 🎤 ***APEX VOICE NOTES:*** Integrated MediaRecorder API allows for ***high-fidelity audio recordings*** directly from the bar.
 
-Mobile/Network: Enter http://[Your-PC-IP]:3000 into your mobile browser.
+* 📊 ***REAL-TIME POLL ENGINE:*** Create ***interactive polls***. The UI updates vote tallies with ***dynamic visual progress bars***.
 
-✨ Features Added
-🔒 Whisper System: Tap any username in the sidebar to start a private session.
+* 🖼️ ***INTELLIGENT MEDIA SCALING:*** Images ***automatically scale*** using CSS aspect-ratio logic to fit bubbles without breaking the UI.
 
-💬 Contextual Replies: Click any message bubble to quote it in your reply.
+* 📜 ***SUPREME UI DESIGN:*** Features a ***slim, high-contrast scrollbar*** and uses '100dvh' units to ensure mobile inputs never clip.
 
-🎤 Voice Notes: Record and send audio messages directly from the input bar.
+---
 
-📊 Live Polls: Create questions and watch votes tally in real-time.
+## 📜 ***4. REPOSITORY LICENSE***
+This project is released under the ***MIT License***. You are free to modify and distribute 
+this code, provided the original credit to ***Wayne Core*** is maintained.
 
-🖼️ Auto-Balanced Media: Intelligent image scaling to keep the UI clean.
-
-📜 Custom Scrollbar: A slim, high-contrast scrollbar optimized for long histories.
-
-Developed by Wayne Core
+---
+# ***DEVELOPED BY WAYNE CORE***
+# ******************************************************************************
