@@ -1,49 +1,59 @@
 ⚡ Apex Local Messenger
 A multi-modal communication framework for high-speed local networking. Features private whisper channels, contextual thread replies, and a live state-engine for real-time polling. Integrated with a native media suite for voice notes and auto-balanced image scaling. Built with a mobile-first, zero-clipping UI using dynamic viewport units.
 
-💻 Required Programs
-To run this project, you must have the following installed:
+💻 Required Software
+To run this project, you must have Node.js installed on your system.
 
-Node.js: This is the engine that runs your Javascript server code outside of a browser.
+Download Node.js (LTS Version): https://nodejs.org/en/download/
 
-NPM (Node Package Manager): This comes with Node.js and is used to install the libraries (Express/Socket.io) that make the chat work.
+Direct Windows Installer: Click Here
 
-A Browser: Chrome, Edge, or Safari are needed to use the voice and image features.
+Direct macOS Installer: Click Here
 
-🛠️ Installation Instructions
+Note: Installing Node.js will automatically install NPM, which is required to download the chat libraries.
+
+🛠️ Step-by-Step Setup
 1. File Preparation
-Place your server.js, index.html, and package.json files in one dedicated folder.
+Ensure the following files are located in a single folder on your computer:
+
+server.js (The backend)
+
+index.html (The interface)
+
+package.json (The configuration)
+
+README.md (This file)
 
 2. Install Dependencies
-Open your terminal (Command Prompt or PowerShell) in that folder and run:
+Open your Terminal or Command Prompt in that folder and run:
 
 Bash
 
 npm install
-3. Launch the Server
-In the terminal, type:
+3. Launch the Engine
+In the same terminal, type:
 
 Bash
 
 node server.js
-You will see a message confirming the Wayne Core Supreme Server is active.
+A message will appear confirming the Wayne Core Supreme Server is active.
 
-4. How to Connect
-On your PC: Open http://localhost:3000.
+4. Connect to Chat
+Desktop: Navigate to http://localhost:3000
 
-On other devices: Use your PC's IP address (e.g., http://192.168.1.5:3000).
+Mobile/Network: Enter http://[Your-PC-IP]:3000 into your mobile browser.
 
 ✨ Features Added
-Whisper System: Tap a username to start a private chat.
+🔒 Whisper System: Tap any username in the sidebar to start a private session.
 
-Reply Logic: Click any bubble to quote and reply.
+💬 Contextual Replies: Click any message bubble to quote it in your reply.
 
-Voice Notes: Real-time audio recording for mobile and desktop.
+🎤 Voice Notes: Record and send audio messages directly from the input bar.
 
-Poll Engine: Create and vote on live polls.
+📊 Live Polls: Create questions and watch votes tally in real-time.
 
-Auto-Balanced Media: Images scale perfectly to fit the chat bubbles.
+🖼️ Auto-Balanced Media: Intelligent image scaling to keep the UI clean.
 
-Custom Scrollbar: Enhanced navigation for long message histories.
+📜 Custom Scrollbar: A slim, high-contrast scrollbar optimized for long histories.
 
 Developed by Wayne Core
