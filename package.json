@@ -1,0 +1,34 @@
+{
+  "name": "apex-local-messenger",
+  "version": "7.0.0",
+  "description": "A multi-modal communication framework for high-speed local networking. Features private whisper channels, contextual thread replies, and a live state-engine for real-time polling. Integrated with a native media suite for voice notes and auto-balanced image scaling. Built with a mobile-first, zero-clipping UI using dynamic viewport units.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "messenger",
+    "local-chat",
+    "socket.io",
+    "real-time",
+    "apex",
+    "whisper",
+    "polling",
+    "wayne-core"
+  ],
+  "author": "Wayne Core",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.2.1",
+    "socket.io": "^4.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samwelwayne266/apex-local-messenger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/samwelwayne266/apex-local-messenger/issues"
+  },
+  "homepage": "https://github.com/samwelwayne266/apex-local-messenger#readme"
+}
