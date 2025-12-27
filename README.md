@@ -1,69 +1,90 @@
-# ******************************************************************************
-# ⚡ ***APEX LOCAL MESSENGER: SUPREME EDITION*** ⚡
-# ******************************************************************************
+# 
+# 🚀 ***APEX LOCAL MESSENGER: THE SUPREME ARCHITECTURE*** 🚀
+# 
 
-A ***multi-modal communication framework*** engineered for high-speed local networking. 
-This engine features ***private whisper channels***, ***contextual thread replies***, 
-and a ***live state-engine*** for real-time polling. Integrated with a ***native 
-media suite*** for voice notes and ***auto-balanced image scaling***. Built with a 
-***mobile-first, zero-clipping UI*** using dynamic viewport units.
-
----
-
-## 💻 ***1. SYSTEM REQUIREMENTS***
-To run the ***Apex Messenger Engine***, you ***must*** have the following software:
-
-* ***Node.js (LTS Version):*** The core JavaScript runtime engine.
-* ***NPM (Node Package Manager):*** Used to install the Socket and Express libraries.
-* ***Modern Browser:*** Chrome, Firefox, or Safari (Required for Voice Recording).
-
-***DOWNLOAD LINKS:***
-* ***Node.js Official:*** https://nodejs.org/en/download/
-* ***Windows Installer (64-bit):*** https://nodejs.org/dist/v20.11.0/node-v20.11.0-x64.msi
-* ***macOS Installer (Universal):*** https://nodejs.org/dist/v20.11.0/node-v20.11.0.pkg
+***Apex Local Messenger*** is a high-performance, full-stack communication suite 
+engineered for low-latency interaction over local area networks (LAN). 
+By utilizing the ***Wayne Core Supreme Protocol***, this engine provides a 
+seamless bridge between desktop and mobile devices without requiring external 
+internet access.
 
 ---
 
-## 🛠️ ***2. STEP-BY-STEP INSTALLATION***
+## 💻 ***1. SYSTEM PREREQUISITES***
+To deploy the ***Apex Messenger Engine***, your host machine ***must*** have 
+the following software environment configured:
 
-1. ***PREPARE PROJECT DIRECTORY:*** Place your 'server.js', 'index.html', and 'package.json' files into ***one single folder***.
+* ***Node.js (v18.0.0 or Higher):*** The JavaScript runtime required to execute the backend logic.
+* ***NPM (Node Package Manager):*** Necessary for installing the Socket.io and Express.js frameworks.
+* ***High-Speed Browser:*** Optimized for Google Chrome, Brave, or Safari to support voice encoding.
 
-2. ***OPEN COMMAND INTERFACE:*** Open ***Command Prompt*** (Windows) or ***Terminal*** (Mac/Linux) and navigate to your folder.
+***OFFICIAL DOWNLOAD PORTALS:***
+* ***Node.js Main Site:*** https://nodejs.org/en/download/
+* ***Windows 64-bit Installer:*** https://nodejs.org/dist/v20.11.0/node-v20.11.0-x64.msi
+* ***macOS Universal Package:*** https://nodejs.org/dist/v20.11.0/node-v20.11.0.pkg
 
-3. ***EXECUTE DEPENDENCY INSTALL:*** Copy and run this command to build the 'node_modules' folder:
+---
+
+## 🛠️ ***2. COMPREHENSIVE INSTALLATION GUIDE***
+
+1. ***DIRECTORY SETUP:*** Create a dedicated folder and ensure these three files are present:
+   - `server.js` (The Logic Core)
+   - `index.html` (The Supreme UI)
+   - `package.json` (The Dependency Manifest)
+
+2. ***TERMINAL INITIALIZATION:*** Open your ***Command Prompt*** or ***PowerShell*** and 'cd' into your project directory.
+
+3. ***DEPENDENCY BUILD:*** Run the following command to download the engine components:
    ***npm install***
 
-4. ***LAUNCH THE SUPREME ENGINE:*** Copy and run this command to start the server:
+4. ***EXECUTE BOOT SEQUENCE:*** Run the command to take the server live:
    ***node server.js***
    
-   *Note: If successful, the terminal will display: "***WAYNE CORE SUPREME SERVER ONLINE***".*
+   *Note: Upon successful boot, the terminal will flash: "***WAYNE CORE SUPREME SERVER ONLINE***".*
 
-5. ***ESTABLISH CONNECTION:***
-   * ***On Host PC:*** Open browser to http://localhost:3000
-   * ***On Mobile/External:*** Enter your PC's ***Local IP Address*** (e.g., http://192.168.1.5:3000).
-
----
-
-## ✨ ***3. ADVANCED FEATURE SUITE***
-
-* 🔒 ***WHISPER SYSTEM:*** Click or tap any username in the active sidebar to initiate a ***secure private session***.
-  
-* 💬 ***CONTEXTUAL THREADING:*** Tap any ***message bubble*** to automatically quote that message and reply instantly.
-
-* 🎤 ***APEX VOICE NOTES:*** Integrated MediaRecorder API allows for ***high-fidelity audio recordings*** directly from the bar.
-
-* 📊 ***REAL-TIME POLL ENGINE:*** Create ***interactive polls***. The UI updates vote tallies with ***dynamic visual progress bars***.
-
-* 🖼️ ***INTELLIGENT MEDIA SCALING:*** Images ***automatically scale*** using CSS aspect-ratio logic to fit bubbles without breaking the UI.
-
-* 📜 ***SUPREME UI DESIGN:*** Features a ***slim, high-contrast scrollbar*** and uses '100dvh' units to ensure mobile inputs never clip.
+5. ***MULTIPLE DEVICE ACCESS:***
+   * ***Host Machine:*** http://localhost:3000
+   * ***Mobile Devices:*** http://[YOUR_LOCAL_IP]:3000
+     *(Example: http://192.168.1.5:3000)*
 
 ---
 
-## 📜 ***4. REPOSITORY LICENSE***
-This project is released under the ***MIT License***. You are free to modify and distribute 
-this code, provided the original credit to ***Wayne Core*** is maintained.
+## ✨ ***3. THE SUPREME FEATURE SET***
+
+* 🔒 ***PRIVATE WHISPER ENGINE:*** A sophisticated peer-to-peer style routing system. Simply tap a user in the 
+  active sidebar to enter a ***private encrypted-style whisper session***.
+
+* 💬 ***CONTEXTUAL THREADED REPLIES:*** Never lose track of a conversation. By clicking any message bubble, the 
+  engine quotes the original text and links your reply for ***perfect clarity***.
+
+* 🎤 ***APEX VOICE CAPTURE:*** Built-in MediaRecorder integration allows users to record and send ***crystal 
+  clear audio notes*** that play natively inside the chat interface.
+
+* 📊 ***DYNAMIC POLL STATE-ENGINE:*** Launch real-time questions. The server synchronizes every vote instantly, 
+  rendering ***visual progress bars*** for every participant.
+
+* 🖼️ ***SMART MEDIA CONTAINMENT:*** The UI utilizes aspect-ratio balancing to ensure that large images 
+  ***automatically scale*** to fit the chat bubbles without breaking the layout.
+
+* 📱 ***MOBILE-OPTIMIZED DESIGN:*** Leveraging '100dvh' (Dynamic Viewport Height), the input bar is 
+  ***guaranteed to stay visible*** above the mobile keyboard at all times.
 
 ---
-# ***DEVELOPED BY WAYNE CORE***
-# ******************************************************************************
+
+## 🔍 ***4. TROUBLESHOOTING & NETWORK TIPS***
+
+* ***PORT CONFLICTS:*** If port 3000 is in use, change the 'port' variable in `server.js`.
+* ***FIREWALL BLOCKS:*** If mobile devices cannot connect, ensure your PC firewall 
+  allows incoming connections on the designated port.
+* ***IP IDENTIFICATION:*** Type 'ipconfig' (Windows) or 'ifconfig' (Mac) in your 
+  terminal to find your local IP for mobile connection.
+
+---
+
+## 📜 ***5. OWNERSHIP & LICENSING***
+This software is provided under the ***MIT License***. Full credit for the 
+architecture and development belongs to ***Wayne Core***.
+
+---
+# ***ENGINEERED BY WAYNE CORE***
+# 
