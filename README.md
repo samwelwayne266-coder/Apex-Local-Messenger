@@ -1,47 +1,37 @@
-# ⚡ Apex Local Messenger
-
+⚡ Apex Local Messenger
 A multi-modal communication framework for high-speed local networking. Features private whisper channels, contextual thread replies, and a live state-engine for real-time polling. Integrated with a native media suite for voice notes and auto-balanced image scaling. Built with a mobile-first, zero-clipping UI using dynamic viewport units.
 
----
+💻 Required Programs
+To run this project, you must have the following installed:
 
-## 💻 Required Programs
-To run this project, you must have the following installed on your computer:
+Node.js: This is the engine that runs your Javascript server code outside of a browser.
 
-1. **Node.js (LTS Version):** The runtime environment that powers the server. [Download here](https://nodejs.org/).
-2. **NPM (Included with Node):** Used to install the necessary chat libraries.
-3. **A Code Editor:** Such as VS Code, Sublime Text, or Notepad++.
-4. **A Modern Browser:** Chrome, Safari, or Firefox (required for Voice Note support).
+NPM (Node Package Manager): This comes with Node.js and is used to install the libraries (Express/Socket.io) that make the chat work.
 
----
+A Browser: Chrome, Edge, or Safari are needed to use the voice and image features.
 
-## 🛠️ Step-by-Step Setup Instructions
+🛠️ Installation Instructions
+1. File Preparation
+Place your server.js, index.html, and package.json files in one dedicated folder.
 
-Follow these steps exactly to get the messenger running:
+2. Install Dependencies
+Open your terminal (Command Prompt or PowerShell) in that folder and run:
 
-### 1. Prepare your Files
-Ensure you have the following files in one folder:
-- `server.js` (The backend logic)
-- `index.html` (The frontend UI)
-- `package.json` (The dependency list)
+Bash
 
-### 2. Install Dependencies
-Open your terminal or command prompt in that folder and run:
-```bash
 npm install
-This will automatically install Express and Socket.io.
-
-### 3. Start the Messenger
-In the same terminal, type:
+3. Launch the Server
+In the terminal, type:
 
 Bash
 
 node server.js
-You should see a message saying "WAYNE CORE SUPREME SERVER ONLINE".
+You will see a message confirming the Wayne Core Supreme Server is active.
 
-### 4. Accessing the App
-On the host PC: Open your browser and go to http://localhost:3000.
+4. How to Connect
+On your PC: Open http://localhost:3000.
 
-On Mobile/Other PCs: Find your computer's local IP address (e.g., 192.168.1.5) and enter http://192.168.1.5:3000 into the browser.
+On other devices: Use your PC's IP address (e.g., http://192.168.1.5:3000).
 
 ✨ Features Added
 Whisper System: Tap a username to start a private chat.
